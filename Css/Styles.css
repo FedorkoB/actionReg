@@ -1,0 +1,597 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+
+$trap-bord-width: 25%;
+
+img{
+    filter: blur(5px);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+	font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: dimgrey;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    filter: blur(5px);
+}
+
+a {
+  color: #00a1d2;
+  text-decoration: none;
+    
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+input, button, label {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.57vw;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+  padding: 0 1vw;
+  width: 31.25vw;
+	min-width: 150px;
+  height: 4.5vw;
+  color: #bbb;
+  text-shadow: 1px 1px 1px black;
+  background: rgba(0, 0, 0, 0.16);
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+input[type=text]:focus, input[type=password]:focus {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+
+label {
+  float: left;
+  width: 10.25vw;
+  line-height: 4.5vw;
+  padding-right: 1vw;
+  font-weight: 100;
+  text-align: right;
+  letter-spacing: 1px;
+}
+/*Section 1
+111111111111111*/
+.login1 {
+	visibility: hidden;
+	float: left;
+	width: 41.75vw;
+	min-width: 250px;
+	height: 32vh;
+	float: left;
+  position: relative;
+  padding-right: 3.25vw;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login1 p {
+  margin: 0 0 1.8vh;
+}
+
+
+
+.forgot-password1 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+    width: 20vw;
+}
+
+.Register1 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+}
+
+.login-submit1 {
+  position: absolute;
+  top: 1.5vw;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  padding: 0;
+    margin-right: 0;
+  border-radius: 50vw;
+  -webkit-box-shadow: 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px rgba(0, 0, 0, 0);
+}
+
+.login-submit1:before, .login-submit2:after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+}
+
+
+.login-button1 {
+  position: relative;
+  z-index: 2;
+  width: 6vw;
+  height: 6vw;
+  /* Fix wrong positioning in Firefox 9 & older (bug 450418) */
+  text-indent: 120%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: none;
+  border: 2px solid #f95;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.login-button1:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+     background: rgba(255, 255, 255, 1);
+
+  border-radius: 50px;
+  
+}
+
+.login-button1:hover:before{
+     background: rgba(175, 255, 255, 0.3);
+}
+
+.login-button1:after {
+  content: '';
+  position: absolute;
+    top: 0vw;
+  left: 0vw;
+  width: 100%;
+  height: 100%;
+    margin-top: -0.08vw;
+  background: url("../img/camera.png") 0 0 no-repeat;
+   background-position: center;
+    background-size: 70%;
+}
+
+/*Section 1
+1111111111111111111111111*/
+
+/*Section 2 
+2222222222222222222222*/
+
+.login2 {
+	visibility: hidden;
+	float: left;
+	width: 41.75vw;
+	min-width: 250px;
+	height: 32vh;
+	float: left;
+  position: relative;
+  padding-right: 3.25vw;
+  font-weight: 300;
+  color: #b5b7b8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login2 p {
+  margin: 0 0 1.8vh;
+}
+
+
+
+.forgot-password2 {
+  padding-left: 10vw;
+    font
+  font-size: 1.5vw;
+  font-weight: 400;
+  letter-spacing: 0.05vw;
+    width: 20vw;
+    min-width: 200px;
+}
+
+.Register2 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+}
+
+
+
+.login-submit2 {
+  position: absolute;
+  top: 1.5vw;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  padding: 0;
+    margin-right: 0;
+  border-radius: 50vw;
+  -webkit-box-shadow: 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px rgba(0, 0, 0, 0);
+}
+
+.login-submit2:before, .login-submit2:after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+}
+
+
+.login-button2 {
+  position: relative;
+  z-index: 2;
+  width: 6vw;
+  height: 6vw;
+  /* Fix wrong positioning in Firefox 9 & older (bug 450418) */
+  text-indent: 120%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: none;
+  border: 2px solid #f95;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.login-button2:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+     background: rgba(255, 255, 255, 1);
+
+  border-radius: 50px;
+  
+}
+
+.login-button2:hover:before{
+     background: rgba(175, 255, 255, 0.3);
+}
+
+.login-button2:after {
+  content: '';
+  position: absolute;
+    top: 0vw;
+  left: 0vw;
+  width: 100%;
+  height: 100%;
+  background: url("../img/teatr.png") 0 0 no-repeat;
+   background-position: center;
+    background-size: 70%;
+}
+
+
+/*Section 2 
+2222222222222222222222*/
+
+/*Section 3
+3333333333333333333333*/
+
+.login3 {
+	visibility:hidden;
+	float: left;
+    opacity: 0.9;
+	width: 41.75vw;
+	min-width: 250px;
+	height: 32vh;
+	float: left;
+  position: relative;
+  padding-right: 3.25vw;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login3 p {
+  margin: 0 0 1.8vh;
+}
+
+.forgot-password3 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+    width: 20vw;
+}
+
+.Register3 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+    float: left;
+}
+
+.Back3 {
+  padding-left: 10vw;
+  float:left;    
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+}
+
+.login-submit3 {
+  position: absolute;
+  top: 1.5vw;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  padding: 0;
+    margin-right: 0;
+  border-radius: 50vw;
+  -webkit-box-shadow: 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px rgba(0, 0, 0, 0);
+}
+
+.login-submit3:before, .login-submit3:after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+    background-image: url(../img/RailWay.jpg);
+}
+
+
+.login-button3 {
+  position: relative;
+  z-index: 2;
+  width: 6vw;
+  height: 6vw;
+  /* Fix wrong positioning in Firefox 9 & older (bug 450418) */
+  text-indent: 120%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: none;
+  border: 2px solid #355448;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.login-button3:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: rgba(05, 38, 35, 0.9);
+  border-radius: 50px;
+  
+}
+
+
+.login-button3:hover:before {
+    background: rgba(65, 98, 75, 0.6);
+}
+
+
+.login-button3:after {
+  content: '';
+  position: absolute;
+    top: 0vw;
+  left: 0vw;
+  width: 100%;
+  height: 100%;
+  background: url("../img/camera_icon_thumb.png") 0 0 no-repeat;
+   background-position: center;
+    background-size: 70%;
+}
+
+/*Section 3
+3333333333333333333333*/
+
+/*Section 4
+4444444444444444444444*/
+
+.login4 {
+	visibility:hidden;
+	float: left;
+    opacity: 0.9;
+	width: 43.5vw;
+	min-width: 250px;
+	height: 32vh;
+	float: left;
+  position: relative;
+  padding-right: 3.25vw;
+  font-weight: 300;
+  color: #a8a7a8;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+.login3 4 {
+  margin: 0 0 1.8vh;
+}
+
+.forgot-password4 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+    width: 20vw;
+}
+
+.Register4 {
+  padding-left: 10vw;
+  font-size: 1.5vw;
+  font-weight: 150;
+  letter-spacing: 0.05vw;
+}
+
+.login-submit4 {
+  position: absolute;
+  top: 1.5vw;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  padding: 0;
+    margin-right: 0;
+  border-radius: 50vw;
+  -webkit-box-shadow: 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px rgba(0, 0, 0, 0);
+}
+
+.login-submit4:before, .login-submit4:after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+    background-image: url(../img/RailWay.jpg);
+}
+
+
+.login-button4 {
+  position: relative;
+  z-index: 2;
+  width: 6vw;
+  height: 6vw;
+  /* Fix wrong positioning in Firefox 9 & older (bug 450418) */
+  text-indent: 120%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: none;
+  border: 2px solid #355448;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.login-button4:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: rgba(05, 38, 35, 0.9);
+  border-radius: 50px;
+  
+}
+
+
+.login-button4:hover:before {
+    background: rgba(65, 98, 75, 0.6);
+}
+
+
+.login-button4:after {
+  content: '';
+  position: absolute;
+    top: 0vw;
+  left: 0vw;
+  width: 100%;
+  height: 100%;
+  background: url("../img/camera_icon_thumb.png") 0 0 no-repeat;
+   background-position: center;
+    background-size: 70%;
+}
+
+/*Section 4
+4444444444444444444444444*/
+
+.container1 { 
+    background-image: url(../img/Foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    width: 26vw;  
+    cursor: pointer;
+    -webkit-filter: blur(0px);
+    -webkit-transition: -webkit-filter 2.3s;
+}
+
+
+.container2{
+     background-image: url(../img/B5JZHGwi7xU.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100vh; 
+	width: 25vw; 
+	margin-top: -100vh;
+	margin-left: 75vw;
+	position: absolute;
+    cursor: pointer;
+   -webkit-filter: blur(0px);
+    -webkit-transition: -webkit-filter 2.3s;
+}
+
+
+
+.container3{
+    background-image: url(../img/shutterstock_92369284.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 62vh; 
+	width: 51vw; 
+	min-width: 350px;
+	margin-top: -100vh;
+	margin-left: 25vw;
+    cursor: pointer;
+    -webkit-filter: blur(0px);
+    -webkit-transition: -webkit-filter 2.3s;
+}
+
+
+.container4{
+    margin-top: -2vw;
+    background-image: url(../img/376138_181213.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: absolute;
+	width: 100vw;
+    height: 85vh;
+	border-radius: 35.5vw / 30vw;
+    cursor: pointer;
+    -webkit-filter: blur(0px);
+    -webkit-transition: -webkit-filter 2.3s;
+    
+}
+.container1:hover {
+	-webkit-filter: blur(2px);
+    width: 26.5vw;
+    margin-left: -1vw;
+    -webkit-box-shadow: inset -5px -5px 60px 5px rgba(98,88,112,0.75);
+}
+
+.container2:hover {
+	-webkit-filter: blur(2px);
+    width: 25.5vw;
+    background-position: right;
+    -webkit-box-shadow: inset -5px -5px 60px 30px rgba(69,92,87,0.75);
+}
+
+.container3:hover {
+	-webkit-filter: blur(2px);
+    height: 64vh; 
+	width: 52.5vw; 
+    margin-left: 24vw;
+    -webkit-box-shadow: inset -5px -5px 60px 30px rgba(96,151,163,0.75);
+}
+
+.container4:hover {
+	-webkit-filter: blur(2px);
+    -webkit-box-shadow: inset -5px -5px 60px 30px rgba(31,56,64,0.75);
+    margin-top: -3vw;
+   
+}
